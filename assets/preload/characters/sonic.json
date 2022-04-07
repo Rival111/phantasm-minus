@@ -1,0 +1,166 @@
+{
+	"animations": [
+		{
+			"loop": false,
+			"offsets": [
+				0,
+				0
+			],
+			"anim": "idle",
+			"fps": 24,
+			"name": "Idle",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-23,
+				-20
+			],
+			"anim": "singUP",
+			"fps": 24,
+			"name": "Up",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				14,
+				-33
+			],
+			"anim": "singDOWN",
+			"fps": 24,
+			"name": "Down",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				27,
+				-6
+			],
+			"anim": "singLEFT",
+			"fps": 24,
+			"name": "Left",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-7,
+				1
+			],
+			"anim": "singRIGHT",
+			"fps": 24,
+			"name": "Right",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				14,
+				-32
+			],
+			"anim": "singDOWNmiss",
+			"fps": 24,
+			"name": "DMiss",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-20,
+				-18
+			],
+			"anim": "singUPmiss",
+			"fps": 24,
+			"name": "UMiss",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				26,
+				-7
+			],
+			"anim": "singLEFTmiss",
+			"fps": 24,
+			"name": "LMiss",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-4,
+				0
+			],
+			"anim": "singRIGHTmiss",
+			"fps": 24,
+			"name": "RMiss",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				37,
+				16
+			],
+			"anim": "firstDeath",
+			"fps": 24,
+			"name": "firstDeath",
+			"indices": [
+				0,
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9
+			]
+		},
+		{
+			"loop": true,
+			"offsets": [
+				40,
+				-2
+			],
+			"anim": "deathLoop",
+			"fps": 24,
+			"name": "deathLoop",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				42,
+				-11
+			],
+			"anim": "deathConfirm",
+			"fps": 24,
+			"name": "ConfirmDeath",
+			"indices": []
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/sonic fw",
+	"position": [
+		0,
+		20
+	],
+	"healthicon": "sonic icons",
+	"flip_x": true,
+	"healthbar_colors": [
+		40,
+		66,
+		137
+	],
+	"camera_position": [
+		0,
+		0
+	],
+	"sing_duration": 6.1,
+	"scale": 1
+}
